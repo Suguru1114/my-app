@@ -27,9 +27,12 @@ import App from "./components/App";
 // }
 
 ReactDOM.render(
-    // <React.StrictMode>
-    //     <footer />
-    // </React.StrictMode>,
-    <App />,
+    <React.StrictMode>
+        <div>
+            <App />
+            <Header />
+        </div>
+    </React.StrictMode>,
+    
     document.getElementById("root")
 );
