@@ -30,7 +30,6 @@ ReactDOM.render(
     <React.StrictMode>
         <div>
             <App />
-            <Header />
         </div>
     </React.StrictMode>,
     
