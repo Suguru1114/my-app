@@ -13,15 +13,23 @@
 
 import React from "react";
 import ReactDOM from "react-dom";
+import App from "./components/App";
 
-let currentDate = newDate();
-const currentYear = currentDate.getfullYear();
-console.log(currentYear);
+// let currentDate = new Date();
+// const currentYear = currentDate.getFullYear();
+// console.log(currentYear);
 
-function header(){
+// function header(){
+// }
 
-}
+// function footer(){
+//     return <footer>&copy; {currentYear} My Website</footer>;
+// }
 
-function footer(){
-
-}
+ReactDOM.render(
+    // <React.StrictMode>
+    //     <footer />
+    // </React.StrictMode>,
+    <App />,
+    document.getElementById("root")
+);
